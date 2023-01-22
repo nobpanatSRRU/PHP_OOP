@@ -1,5 +1,4 @@
 <?php
-
 class Employee{
    private $name;
    private $department;
@@ -7,8 +6,6 @@ class Employee{
 
    //getters
 }
-
-
 $empr = new Employee();
 $empr->name = "Jenny";
 $empr->department = "Accounting";
@@ -35,6 +32,5 @@ $empr3->salary= "30000";
 echo "ชื่อพนักงาน = ".$empr3->name."</br>";
 echo "แผนก = ".$empr3->department."</br>";
 echo "เงินเดือน = ".$empr3->salary."</br>";
-
 
 ?>
